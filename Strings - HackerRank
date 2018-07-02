@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+#include <algorithm>
+
+
+using namespace std;
+
+    int main()
+    {
+        std::string a;
+        std::string b;
+        std:string c;
+        cin>>a;
+        cin>>b;
+        c = a+b;
+
+        cout<<a.length()<<" "<<b.length()<<endl; /* Length of A and B strings */
+        cout<<c<<endl; /* concatenating (a + b) */
+        swap(a[0],b[0]);
+        cout<<a<<" "<<b<<endl;
+        return 0;
+    }
+
